@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.square.tech.safeblooddonors">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FeedBack"></activity>
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".AboutApp" />
+        <activity
+            android:name=".Empty"
+            android:parentActivityName=".ui.home.view.HomeActivity" />
+        <activity
+            android:name=".ui.home.view.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BloodGroup"
+            android:parentActivityName=".Empty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Benefit"
+            android:parentActivityName=".Empty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".How_To_Become_A_Donor"
+            android:parentActivityName=".Empty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FAQs"
+            android:parentActivityName=".Empty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Welcome"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.splash.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.login.view.UserLoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.userdetail.view.UserDetailActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.square.tech.safeblooddonors.ui.home.view.HomeActivity" />
+        </activity>
+        <!--
+    YOU NEED TO ADD YOUR MAPS API KEY. Get a key from
+    https://developers.google.com/maps/documentation/android-api/
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA6UvSyCHexZC3QFx_wCCxy-SJXo_Q20oc" />
+
+        <activity
+            android:name=".ui.about.AboutActivity"
+            android:label="About"
+            android:parentActivityName=".ui.home.view.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.myprofile.MyProfileActivity"
+            android:label="My Profile"
+            android:parentActivityName=".ui.home.view.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".fcm.BloodDonationMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".fcm.BloodDonationInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+    </application>
+
+</manifest>

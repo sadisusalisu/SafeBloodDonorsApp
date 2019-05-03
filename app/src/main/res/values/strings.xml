@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Safe Blood Donors</string>
+
+    <!--LoginScreen Activity-->
+
+    <string name="hi">Welcome.</string>
+    <string name="lets_get_started">Safe Blood Donors</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="proceed">PROCEED</string>
+
+    <string name="wait_for_auto_verify">Waiting to automatically detect an SMS sent to you mobile number</string>
+    <string name="enter_6_digit_code">Enter 6 - Digit code</string>
+    <string name="didn_t_receive_the_code">Didn\'t receive the code?</string>
+
+    <string name="msg_invalid_phone_number">Invalid Phone Number!</string>
+    <string name="msg_verification_already_in_progress">Please wait! Verification already in progress.</string>
+    <string name="msg_otp_has_been_sent">An OTP has been sent to your phone number.</string>
+    <string name="msg_encountered_an_unexpected_error">We have encountered an unexpected error while verifying your phone number!</string>
+    <string name="msg_invalid_verification_code">Invalid verification code!</string>
+    <string name="msg_sms_verification_limit_exceeded">Oops! You have exceeded the maximum limit for SMS verification, please try again later.</string>
+    <string name="msg_currently_verifying_number">Currently we are verifying the phone number:\n\n+%1$s-%2$s\n\nwould you like to edit the number?</string>
+
+    <string name="resend_code_timer">RESEND CODE (%ds)</string>
+
+
+    <string name="msg_no_internet_connection">No internet connection!</string>
+    <string name="msg_please_wait">Please Wait.</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Donate Blood </string>
+    <string name="slide_1_desc">The easiest way to practice humanitrian work by saving lives of people in need of blood in the hospital!</string>
+
+    <string name="slide_2_title">Request Donation</string>
+    <string name="slide_2_desc">Search for voluntary donors around you!</string>
+
+    <string name="slide_3_title">Locate Blood Banks</string>
+    <string name="slide_3_desc">Locate the nearest blood donation centers within your city!</string>
+
+    <string name="slide_4_title">Finds Information</string>
+    <string name="slide_4_desc">Learn all the inforamtion needed before you donate blood!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+    <!--LoginScreen Activity-->
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="iam_in">I am in</string>
+    <string name="verify_mobile_number">Verify mobile number.OTP has been sent"</string>
+    <string name="verify">Verify</string>
+    <string name="verification">Verification</string>
+    <string name="verify_phone_number">VERIFY PHONE NUMBER</string>
+    <string name="otp_sent_text">OTP has been sent to %1$s.</string>
+    <string name="hint_otp">OTP</string>
+    <string name="countdown">%1$d seconds left!</string>
+    <string name="resend_code">Resend Code</string>
+
+
+    <!--UserDetailActivity-->
+    <string name="user_profile">Profile</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_birth_date">Select Birth Date</string>
+    <string name="hint_location">Select Your Location</string>
+    <string name="create_now">Create Now</string>
+    <string name="hint_email">Email</string>
+    <string name="gender_male">Male</string>
+    <string name="gender">Gender</string>
+    <string name="gender_female">Female</string>
+    <string name="date_hint">Select date</string>
+    <string name="msg_sign_up_location_message">Your current location is required to sign you up so that you can get benefit of our loved community by sharing with them where you are.</string>
+    <string name="msg_never_ask_sign_up">Sign up process cannot be completed without location access. Please navigate to application settings -> Permissions and grant location permission.</string>
+    <string name="msg_first_name_empty">First name cannot be empty.</string>
+    <string name="msg_last_name_empty">Last name cannot be empty.</string>
+    <string name="msg_email_empty">Email cannot be empty.</string>
+    <string name="msg_invalid_email">Please enter a valid email address.</string>
+    <string name="msg_invalid_age">Please select your date of birth.</string>
+    <string name="msg_invalid_location">Your location is not yet selected.</string>
+
+
+    <!-- HomeActivity -->
+    <string name="sign_out">Sign Out</string>
+    <string name="my_profile">My Profile</string>
+    <string name="map_theme">Map Theme</string>
+    <string name="about">About</string>
+    <string name="user_details">User Details</string>
+    <string name="donor">Donor</string>
+    <string name="receiver">Receiver</string>
+    <string name="blood_request">Blood Request</string>
+    <string name="get_direction">Get Direction</string>
+
+    <!-- RequestDialogFragment -->
+    <string name="submit">Submit</string>
+    <string name="txt_purpose">Purpose of your blood request</string>
+    <string name="i_want_to">I want to</string>
+    <string name="select_blood_group">Select Blood Group</string>
+    <string name="title_create_request">Create Request</string>
+    <string name="receiver_request_type">Request Blood</string>
+    <string name="donor_request_type">Donate Blood</string>
+    <string name="msg_blood_request_location_message">Your current location is required to create blood request. By this we can show everyone else where you are.</string>
+    <string name="msg_never_ask_blood_request">Your current location is required for creating blood request. Please navigate to application settings -> Permissions and grant location permission.</string>
+
+
+    <!-- General -->
+    <string name="txt_open_settings">Open Settings</string>
+    <string name="msg_location_permission_title">Location Permission Required.</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="msg_empty_user">Could not find user details.</string>
+    <string name="msg_invalid_phone">Please enter a valid phone number.</string>
+    <string name="msg_something_went_wrong">Something went wrong!</string>
+    <string name="msg_invalid_code">Invalid verification code.</string>
+    <string name="msg_invalid_otp">OTP cannot be empty.</string>
+    <string name="app_about">This is a free  Mobile Application for Blood Donors which helps  patients requests blood on demands from voluntary donors by sending notification to our users on donation request in their city or area using map.Connecting blood donors and needy reduces time which increases the possibility of saving lives and also eliminates the shortage of blood.</string>
+    <string name="you_are_here">You are here!</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu">Menu</string>
+    <string name="no_the_procedure_is_relatively_painless_our_nurses_and_technicians_are_skilled_in_the_art_of_phlebotomy_blood_taking_and_before_you_know_it_the_procedure_will_be_over">No the procedure is relatively painless our nurses and technicians are skilled in the art of phlebotomy blood taking and before you know it the procedure will be over</string>
+    <string name="the_empty_blood_pack_has_its_own_needle_and_when_used_it_is_dumped_the_site_of_the_venipuncture_is_then_cleaned_with_a_sterile_solution">The empty blood pack has its own needle and when used it is dumped the site of the venipuncture is then cleaned with a sterile solution</string>
+    <string name="you_must_be_in_good_health_at_the_time_you_donate_you_cannot_donate_if_you_have_a_cold_flu_sore_throat_cold_sore_stomach_bug_or_any_other_infection">You must be in good health at the time you donate.You cannot donate if you have a cold, flu, sore throat, cold sore, stomach bug or any other infection.</string>
+    <string name="health">Health:</string>
+    <string name="DownloadAnd">DOWNLOAD OUR APPLICATION AND REGISTER</string>
+    <string name="BreastFeed">Following pregnancy, the deferral period should last as many months as the duration of the pregnancy. It is not advisable to donate blood while breast-feeding. Following childbirth, the deferral period is at least 9 months (as for pregnancy) and until 3 months after your baby is significantly weaned (i.e. getting most of his/her nutrition from solids or bottle feeding).</string>
+    <string name="pregnancy_and_breast_feeding">PREGNANCY AND BREAST FEEDING:</string>
+    <string name="Weight">You weigh at least 110pounds or 50 kg.</string>
+    <string name="weight">WEIGHT:</string>
+    <string name="YouMust">You must be aged between 16 and 65.</string>
+    <string name="age">AGE:</string>
+    <string name="WelcomeD">Welcome in this page you will learn some of the requirement before you can become a donor..</string>
+    <string name="Phone">+2348032537022</string>
+    <string name="OurEmail">safeblooddonors@gmail.com</string>
+    <string name="DonateDec">By donating blood many lives are saved and hope is given to many whose situation may otherwise be hopeless blood donors give such patients a second lease of life</string>
+    <string name="saves_lives">SAVES LIVES</string>
+    <string name="brings_joy_to_many">BRINGS JOY TO MANY</string>
+    <string name="JoyDec">When you donate blood you impact not only the patient whose life may depend on your donation but also all those who depend on that patient the entire community will benefit from he spirit of generosity</string>
+    <string name="DonateWel">There Are Many Benefit Blood Bonation Which Include:</string>
+    <string name="improves_heart_health">IMPROVES HEART HEALTH</string>
+    <string name="HeartDec">Donating blood improves your overall cardiovascular health increased level of iron in the blood raises the chance of heart disease regularly donating blood helps males in particular to reduce the amount of iron in the blood this can reduce the chance of heart attack by 88 additionally regular blood donation can lower the risk of severe cardiovascular events such as stroke by 33.</string>
+    <string name="enhances_the_production_of_new_blood_cells">ENHANCES THE PRODUCTION OF NEW BLOOD CELLS</string>
+    <string name="EnhanceDec">When blood is withdrawn the donor s body immediately begins to replenish the lost blood new cells are produced by marrow within 48 hours of donation and all of the red blood cells the donor loses during donation are completely replaced within one to two months therefore donating blood helps to stimulate the production of new blood cells this process of replenishment can help your body stay healthy and work more efficiently</string>
+    <string name="burns_calories">BURNS CALORIES</string>
+    <string name="CaloryDec">Donating blood on a regular basis can also improve fitness donating one pint of blood 450 ml burns 650 calories in donor s body</string>
+    <string name="WelbeingDec">ENHANCES FEELING OF WELL BEING</string>
+    <string name="in_elderly_people_many_elderly_people_who_are_in_good_health_have_reported_feeling_invigorated_and_reenergized_by_giving_blood_on_a_regular_basis">In elderly people many elderly people who are in good health have reported feeling invigorated and reenergized by giving blood on a regular basis</string>
+    <string name="reduces_cancer_risk">REDUCES CANCER RISK</string>
+    <string name="CancerDec">Give blood to help lower your risk of cancer according to the miller keystone blood center consistent blood donation is associated with lowered risks of cancers including liver lung colon stomach and throat cancers risk levels drop in correlation with how often participants donate blood</string>
+    <string name="if_you_have_a_blood_transfusion_where_blood_is_taken_from_one_person_and_given_to_another_your_blood_will_be_tested_against_a_sample_of_donor_cells_that_contain_abo_and_rhd_antigens_if_there_s_no_reaction_donor_blood_with_the_same_abo_and_rhd_type_can_be_used">If you have a blood transfusion – where blood is taken from one person and given to another – your blood will be tested against a sample of donor cells that contain ABO and RhD antigens. If there\'s no reaction, donor blood with the same ABO and RhD type can be used.</string>
+    <string name="if_the_blood_doesn_t_react_to_any_of_the_anti_a_or_anti_b_antibodies_it_s_blood_group_o_a_series_of_tests_with_different_types_of_antibody_can_be_used_to_identify_your_blood_group">If the blood doesn\'t react to any of the anti-A or anti-B antibodies, it\'s blood group O. A series of tests with different types of antibody can be used to identify your blood group.</string>
+    <string name="to_work_out_your_blood_group_your_red_cells_are_mixed_with_different_antibody_solutions_if_for_example_the_solution_contains_anti_b_antibodies_and_you_have_b_antigens_on_your_cells_you_re_blood_group_b_it_will_clump_together">To work out your blood group, your red cells are mixed with different antibody solutions. If, for example, the solution contains anti-B antibodies and you have B antigens on your cells (you\'re blood group B), it will clump together.</string>
+    <string name="blood_group_test">Blood group test</string>
+    <string name="it_s_safe_for_most_recipients_because_it_doesn_t_have_any_a_b_or_rhd_antigens_on_the_surface_of_the_cells_and_is_compatible_with_every_other_abo_and_rhd_blood_group">It\'s safe for most recipients because it doesn\'t have any A, B or RhD antigens on the surface of the cells, and is compatible with every other ABO and RhD blood group.</string>
+    <string name="in_most_cases_o_rhd_negative_blood_o_can_safely_be_given_to_anyone_it_s_often_used_in_medical_emergencies_when_the_blood_type_isn_t_immediately_known">In most cases, O RhD negative blood (O-) can safely be given to anyone. It\'s often used in medical emergencies when the blood type isn\'t immediately known.</string>
+    <string name="ab_rhd_negative_ab">AB RhD negative (AB-)</string>
+    <string name="ab_rhd_positive_ab">AB RhD positive (AB+)</string>
+    <string name="o_rhd_negative_o">O RhD negative (O-)</string>
+    <string name="o_rhd_positive_o">O RhD positive (O+)</string>
+    <string name="b_rhd_negative_b">B RhD negative (B-)</string>
+    <string name="b_rhd_positive_b">B RhD positive (B+)</string>
+    <string name="a_rhd_negative_a">A RhD negative (A-)</string>
+    <string name="a_rhd_positive_a">A RhD positive (A+)</string>
+    <string name="feedback">FeedBack</string>
+
+
+</resources>
